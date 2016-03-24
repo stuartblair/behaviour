@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Behaviours</title>
+</head>
+<body>
+<h3>Hello, here are how the kids are doing so far.</h3>
+
+<h4>These are your children:</h4>
+
+<ul>
+    <li th:each="child:${children}" th:text="${child}">Child</li>
+</ul>
+</body>
+</html>
